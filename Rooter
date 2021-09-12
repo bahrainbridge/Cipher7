@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <iostream>
+
+int main(int argc, char **argv)
+{
+    
+    //Only lower case is allowed
+    //Replace c3 with 0 if only 2 character
+    char c1 = 'c';
+    char c2 = 'r';
+    char c3 = '0';
+    
+    int var = c1+7;
+    var = var+c2+7;
+    if(c3!='0')
+    {
+        var = var+c3+7;
+    }
+    
+   
+
+    using std::cout;
+    std::cout<<var;
+	return 0;
+    
+    //Executions
+    //HashingRef = Val
+    //           = 10
+    //           = 9
+    //           = 12
+    //cr         = 11
+}
